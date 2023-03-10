@@ -1,5 +1,6 @@
 function ChangeName() {
   let name = prompt('What is your name?');
+  alert('Hello  '+ name); //alert for another popup with new name added.
   document.getElementById("inputName").innerHTML = `Hello ${name}`;
 }
 
